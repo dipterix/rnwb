@@ -1,0 +1,17 @@
+Package: rnwb
+Title: Neurodata Without Borders in R
+Version: 0.0.0.9000
+Authors@R: 
+    person("Zhengjia", "Wang", , "dipterix.wang@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5629-1116"))
+Description: 
+    Supports Neurodata Without Borders ('NWB') format.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    rpymat (>= 0.1.6.6)
+Remotes:  
+    dipterix/rpymat
