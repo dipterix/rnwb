@@ -3,7 +3,29 @@
 \docType{import}
 \name{reexports}
 \alias{reexports}
+\alias{import_main}
+\alias{import}
+\alias{np_array}
+\alias{py_bool}
 \alias{py_help}
+\alias{py_builtin}
+\alias{py_call}
+\alias{py_del_attr}
+\alias{py_del_item}
+\alias{py_dict}
+\alias{py_eval}
+\alias{py_get_attr}
+\alias{py_get_item}
+\alias{py_len}
+\alias{py_list}
+\alias{py_none}
+\alias{py_slice}
+\alias{py_str}
+\alias{r_to_py}
+\alias{repl_python}
+\alias{run_pyscript}
+\alias{run_pystring}
+\alias{tuple}
 \title{Objects exported from other packages}
 \keyword{internal}
 \description{
@@ -11,6 +33,6 @@ These objects are imported from other packages. Follow the links
 below to see their documentation.
 
 \describe{
-  \item{rpymat}{\code{\link[rpymat:reticulate-reexports]{py_help}}}
+  \item{rpymat}{\code{\link[rpymat:reticulate-reexports]{import}}, \code{\link[rpymat:reticulate-reexports]{import_main}}, \code{\link[rpymat:reticulate-reexports]{np_array}}, \code{\link[rpymat:reticulate-reexports]{py_bool}}, \code{\link[rpymat]{py_builtin}}, \code{\link[rpymat:reticulate-reexports]{py_call}}, \code{\link[rpymat:reticulate-reexports]{py_del_attr}}, \code{\link[rpymat:reticulate-reexports]{py_del_item}}, \code{\link[rpymat:reticulate-reexports]{py_dict}}, \code{\link[rpymat:reticulate-reexports]{py_eval}}, \code{\link[rpymat:reticulate-reexports]{py_get_attr}}, \code{\link[rpymat:reticulate-reexports]{py_get_item}}, \code{\link[rpymat:reticulate-reexports]{py_help}}, \code{\link[rpymat:reticulate-reexports]{py_len}}, \code{\link[rpymat]{py_list}}, \code{\link[rpymat:reticulate-reexports]{py_none}}, \code{\link[rpymat]{py_slice}}, \code{\link[rpymat:reticulate-reexports]{py_str}}, \code{\link[rpymat:reticulate-reexports]{r_to_py}}, \code{\link[rpymat]{repl_python}}, \code{\link[rpymat]{run_pyscript}}, \code{\link[rpymat:run_pyscript]{run_pystring}}, \code{\link[rpymat:reticulate-reexports]{tuple}}}
 }}
 

@@ -1,6 +1,6 @@
-#' @importFrom rpymat run_script
-#' @importFrom rpymat repl_python
-#' @importFrom rpymat py_help
+#' @importFrom R6 R6Class
+#' @importFrom cli cli_h1
+#' @import rpymat
 NULL
 
 # Internals

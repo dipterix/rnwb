@@ -6,12 +6,13 @@ Authors@R:
            comment = c(ORCID = "0000-0001-5629-1116"))
 Description: 
     Supports Neurodata Without Borders ('NWB') format.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Imports: 
+    cli (>= 3.6.1),
+    R6 (>= 2.5.1),
     rpymat (>= 0.1.6.6)
-Remotes:  
+Remotes: 
     dipterix/rpymat
