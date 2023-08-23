@@ -58,7 +58,7 @@ container$with({
 })
 
 # Pretty-print
-data.table::data.table(electrode_table)
+electrode_table
 #>                 location filtering channID hemisph       label
 #>   1:            amygdala  300-3000     257       L  MI_D1_C257
 #>   2:            amygdala  300-3000     258       L  MI_D1_C258
