@@ -36,12 +36,12 @@ This is a basic example of reading a `NWB` file:
 
 ``` r
 file <- "<path to .nwb>"
-# Open a NWB file proxy
-proxy <- rnwb::NWBHDF5IO$new(file, mode = "r")
+# Open a NWB file container
+container <- rnwb::NWBHDF5IO$new(file, mode = "r")
 
 # Use `with` to properly close the files at the end
-proxy$with({
-  nwb_data <- proxy$read()
+container$with({
+  nwb_data <- container$read()
   electrodes <- nwb_data$electrodes
   
   columns_to_extract <- c("location", "filtering", "channID", "hemisph", "label")

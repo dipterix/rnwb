@@ -18,6 +18,7 @@ options(rnwb.max_lines = 10)
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![R-CMD-check](https://github.com/dipterix/rnwb/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/dipterix/rnwb/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of `rnwb` is to provide R users access to ["Neurodata Without Borders" (NWB)](https://www.nwb.org/). This access is viable through the NWB official Python package [pynwb](https://github.com/NeurodataWithoutBorders/pynwb) and Python-to-R tunnel provided by [RAVE (Reproducible framework for Analyzing and Visualizing intracranial EEG)](https://rave.wiki)
@@ -41,12 +42,12 @@ This is a basic example of reading a `NWB` file:
 
 ```{r kickstart, eval = FALSE}
 file <- "<path to .nwb>"
-# Open a NWB file proxy
-proxy <- rnwb::NWBHDF5IO$new(file, mode = "r")
+# Open a NWB file container
+container <- rnwb::NWBHDF5IO$new(file, mode = "r")
 
 # Use `with` to properly close the files at the end
-proxy$with({
-  nwb_data <- proxy$read()
+container$with({
+  nwb_data <- container$read()
   electrodes <- nwb_data$electrodes
   
   columns_to_extract <- c("location", "filtering", "channID", "hemisph", "label")
