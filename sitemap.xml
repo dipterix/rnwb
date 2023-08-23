@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://dipterix.org/rnwb/404.html</loc>
+  </url>
+  <url>
+    <loc>http://dipterix.org/rnwb/LICENSE-text.html</loc>
+  </url>
+  <url>
+    <loc>http://dipterix.org/rnwb/authors.html</loc>
+  </url>
+  <url>
+    <loc>http://dipterix.org/rnwb/index.html</loc>
+  </url>
+  <url>
+    <loc>http://dipterix.org/rnwb/reference/NWBHDF5IO.html</loc>
+  </url>
+  <url>
+    <loc>http://dipterix.org/rnwb/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>http://dipterix.org/rnwb/reference/install_nwb.html</loc>
+  </url>
+  <url>
+    <loc>http://dipterix.org/rnwb/reference/nwb.html</loc>
+  </url>
+  <url>
+    <loc>http://dipterix.org/rnwb/reference/py.html</loc>
+  </url>
+  <url>
+    <loc>http://dipterix.org/rnwb/reference/reexports.html</loc>
+  </url>
+  <url>
+    <loc>http://dipterix.org/rnwb/reference/to_r.html</loc>
+  </url>
+</urlset>
