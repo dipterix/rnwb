@@ -50,7 +50,7 @@ validate_python <- function(verbose = TRUE) {
   return(invisible(package_missing))
 }
 
-#' @title Install 'NWB' via 'PyNWB'
+#' @title Install \code{'NWB'} via \code{'pynwb'}
 #' @param python_ver 'Python' version, see \code{\link[rpymat]{configure_conda}};
 #' default is \code{"auto"}, which is suggested
 #' @param verbose whether to print the installation messages

@@ -17,11 +17,11 @@ options(rnwb.max_lines = 10)
 # rnwb
 
 <!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![R-CMD-check](https://github.com/dipterix/rnwb/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/dipterix/rnwb/actions/workflows/R-CMD-check.yaml)
+[![Life-cycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![R-check](https://github.com/dipterix/rnwb/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/dipterix/rnwb/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of `rnwb` is to provide R users access to ["Neurodata Without Borders" (NWB)](https://www.nwb.org/). This access is viable through the NWB official Python package [pynwb](https://github.com/NeurodataWithoutBorders/pynwb) and Python-to-R tunnel provided by [RAVE (Reproducible framework for Analyzing and Visualizing intracranial EEG)](https://rave.wiki)
+The goal of `rnwb` is to provide R users access to [`"Neurodata Without Borders"`](https://www.nwb.org/). This access is viable through the `NWB` official Python package [`pynwb`](https://github.com/NeurodataWithoutBorders/pynwb) and Python-to-R tunnel provided by [`Reproducible framework for Analyzing and Visualizing intracranial EEG`](https://rave.wiki)
 
 ## Installation
 

@@ -3,14 +3,14 @@
 \name{nwb}
 \alias{nwb}
 \alias{load_nwb}
-\title{Get 'PyNWB' module}
+\title{Get \code{'pynwb'} module}
 \usage{
 nwb
 
 load_nwb(force = FALSE, error_if_missing = TRUE)
 }
 \arguments{
-\item{force}{whether to force reloading \code{PyNWB} module; default is false}
+\item{force}{whether to force reloading \code{pynwb} module; default is false}
 
 \item{error_if_missing}{whether to raise errors when the module is unable to
 load; default is true.}
@@ -20,5 +20,5 @@ A 'Python' module if successfully loaded. If \code{error_if_missing}
 is set to false and module is unable to load, return \code{NULL}
 }
 \description{
-Get 'PyNWB' module
+Get \code{'pynwb'} module
 }

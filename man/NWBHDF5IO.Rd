@@ -95,11 +95,11 @@ file; default is true}
 \if{html}{\out{<a id="method-NWBHDF5IO-close_linked_files"></a>}}
 \if{latex}{\out{\hypertarget{method-NWBHDF5IO-close_linked_files}{}}}
 \subsection{Method \code{close_linked_files()}}{
-Close all opened, linked-to files. 'MacOS' and 'Linux' automatically
-release the linked-to file after the linking file is closed, but
-'Windows' does not, which prevents the linked-to file from being
-deleted or truncated. Use this method to close all opened,
-linked-to files.
+Close all opened, linked-to files. \code{'MacOS'} and \code{'Linux'}
+automatically release the linked-to file after the linking file is
+closed, but \code{'Windows'} does not, which prevents the linked-to
+file from being deleted or truncated. Use this method to close all
+opened, linked-to files.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{NWBHDF5IO$close_linked_files()}\if{html}{\out{</div>}}
 }
@@ -109,7 +109,7 @@ linked-to files.
 \if{html}{\out{<a id="method-NWBHDF5IO-read"></a>}}
 \if{latex}{\out{\hypertarget{method-NWBHDF5IO-read}{}}}
 \subsection{Method \code{read()}}{
-Read the 'NWB' file from the 'IO' source. Please use along with
+Read the \code{'NWB'} file from the 'IO' source. Please use along with
 \code{'$with'} method
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{NWBHDF5IO$read()}\if{html}{\out{</div>}}
@@ -120,7 +120,7 @@ Read the 'NWB' file from the 'IO' source. Please use along with
 \if{html}{\out{<a id="method-NWBHDF5IO-with"></a>}}
 \if{latex}{\out{\hypertarget{method-NWBHDF5IO-with}{}}}
 \subsection{Method \code{with()}}{
-Safe wrapper for reading and handling 'NWB' file. See class examples.
+Safe wrapper for reading and handling \code{'NWB'} file. See class examples.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{NWBHDF5IO$with(expr, quoted = FALSE, envir = parent.frame())}\if{html}{\out{</div>}}
 }

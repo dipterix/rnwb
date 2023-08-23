@@ -1,11 +1,11 @@
 Package: rnwb
-Title: Neurodata Without Borders in R
+Title: 'Neurodata' Without Borders in R
 Version: 0.0.0.9000
 Authors@R: 
     person("Zhengjia", "Wang", , "dipterix.wang@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-5629-1116"))
 Description: 
-    Supports Neurodata Without Borders ('NWB') format in R.
+    Supports 'Neurodata' Without Borders ('NWB') format in R.
 License: file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

@@ -74,11 +74,11 @@ NWBHDF5IO <- R6::R6Class(
     },
 
     #' @description
-    #' Close all opened, linked-to files. 'MacOS' and 'Linux' automatically
-    #' release the linked-to file after the linking file is closed, but
-    #' 'Windows' does not, which prevents the linked-to file from being
-    #' deleted or truncated. Use this method to close all opened,
-    #' linked-to files.
+    #' Close all opened, linked-to files. \code{'MacOS'} and \code{'Linux'}
+    #' automatically release the linked-to file after the linking file is
+    #' closed, but \code{'Windows'} does not, which prevents the linked-to
+    #' file from being deleted or truncated. Use this method to close all
+    #' opened, linked-to files.
     #' @returns Nothing
     close_linked_files = function() {
       ptr <- private$.file_handler
@@ -94,7 +94,7 @@ NWBHDF5IO <- R6::R6Class(
     },
 
     #' @description
-    #' Read the 'NWB' file from the 'IO' source. Please use along with
+    #' Read the \code{'NWB'} file from the 'IO' source. Please use along with
     #' \code{'$with'} method
     #' @returns \code{'NWBFile'} container
     read = function() {
@@ -106,7 +106,7 @@ NWBHDF5IO <- R6::R6Class(
     },
 
     #' @description
-    #' Safe wrapper for reading and handling 'NWB' file. See class examples.
+    #' Safe wrapper for reading and handling \code{'NWB'} file. See class examples.
     #' @param expr R expression to evaluate
     #' @param quoted Whether \code{expr} is quoted; default is false
     #' @param envir environment for \code{expr} to evaluate; default is the

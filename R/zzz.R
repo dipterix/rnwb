@@ -86,8 +86,8 @@ load_py <- local({
 }
 
 #' @name nwb
-#' @title Get 'PyNWB' module
-#' @param force whether to force reloading \code{PyNWB} module; default is false
+#' @title Get \code{'pynwb'} module
+#' @param force whether to force reloading \code{pynwb} module; default is false
 #' @param error_if_missing whether to raise errors when the module is unable to
 #' load; default is true.
 #' @usage nwb

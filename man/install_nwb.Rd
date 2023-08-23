@@ -2,7 +2,7 @@
 % Please edit documentation in R/aaa.R
 \name{install_nwb}
 \alias{install_nwb}
-\title{Install 'NWB' via 'PyNWB'}
+\title{Install \code{'NWB'} via \code{'pynwb'}}
 \usage{
 install_nwb(python_ver = "auto", verbose = TRUE)
 }
@@ -16,5 +16,5 @@ default is \code{"auto"}, which is suggested}
 This function returns nothing.
 }
 \description{
-Install 'NWB' via 'PyNWB'
+Install \code{'NWB'} via \code{'pynwb'}
 }
